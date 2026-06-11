@@ -1,0 +1,30 @@
+# Secrets
+.env
+config.json
+
+# Generated data
+out/
+tmp/
+raw_candidates.json
+selected_videos.json
+used_videos.json
+channel_cache.json
+last_edit_result.json
+reelsinfo.json
+
+# Build / binary extras
+dist/
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,26 @@
+{
+  "channels": [
+    "@examplechannel",
+    "https://www.youtube.com/@anotherchannel/videos"
+  ],
+  "filters": {
+    "min_duration_sec": 240,
+    "max_duration_sec": 3600
+  },
+  "search": {
+    "per_channel_results": 40,
+    "candidate_pool_size": 100,
+    "final_target": 10,
+    "random_seed": null,
+    "max_pool_per_channel": 25,
+    "max_final_per_channel": 4
+  },
+  "ranking": {
+    "preferred_duration_min_sec": 480,
+    "preferred_duration_max_sec": 1800
+  },
+  "gemini": {
+    "enabled": true,
+    "model": "gemini-2.5-flash"
+  }
+}
